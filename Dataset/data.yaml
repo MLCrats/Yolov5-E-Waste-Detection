@@ -1,0 +1,6 @@
+train: ../Dataset/train/images
+val: ../Dataset/val/images
+test: ../Dataset/test/images
+
+nc: 8
+names: ['Battery', 'Capacitor', 'Cirtuit-Board', 'IoT Sensor', 'LCD', 'Regulator', 'Resistor', 'Switches']

@@ -1,6 +1,6 @@
 streamlit
 streamlit_webrtc
-torch
+torch==1.10
 
 torchvision
 opencv-python

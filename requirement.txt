@@ -1,8 +1,6 @@
 streamlit
 streamlit_webrtc
-torch==0.11.2
-
-torchvision
+torch torchvision torchaudio
 opencv-python
 matplotlib
 PyYAML

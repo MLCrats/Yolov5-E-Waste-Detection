@@ -1,8 +1,14 @@
 streamlit
 streamlit_webrtc
-pytorch
 
-torchvision
+#-f https://download.pytorch.org/whl/torch_stable.html
+#torch==1.8.1+cpu
+#torchvision==0.9.1+cpu
+-find-links https://download.pytorch.org/whl/torch_stable.html 
+#torch==1.7.1+cpu
+torch --extra-index-url https://download.pytorch.org/whl/cpu
+torchvision --extra-index-url https://download.pytorch.org/whl/cpu
+
 opencv-python
 matplotlib
 PyYAML

@@ -7,6 +7,8 @@ import cv2
 from streamlit_webrtc import webrtc_streamer, WebRtcMode, RTCConfiguration
 import av
 
+st.title('MLCrats')
+st.header('E-Waste Identification and Classification')
 
 device = 'cpu'
 if not hasattr(st, 'Detection'):

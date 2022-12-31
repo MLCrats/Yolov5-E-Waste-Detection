@@ -4,11 +4,6 @@ pip==22.3.1
 pytorch-ignite==0.4.9
 torch==1.13.1
 torchvision==0.14.1
-#-find-links https://download.pytorch.org/whl/torch_stable.html 
-#torch==1.7.1+cpu
-#torch --extra-index-url https://download.pytorch.org/whl/cpu
-#torchvision --extra-index-url https://download.pytorch.org/whl/cpu
-
 opencv-python
 matplotlib
 PyYAML
@@ -16,5 +11,3 @@ requests
 scipy
 tqdm
 seaborn
-
-

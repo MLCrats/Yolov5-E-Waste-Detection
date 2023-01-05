@@ -12,10 +12,6 @@ st.header('E-Waste Identification and Classification')
 device = 'cpu'
 if not hasattr(st, 'Detection'):
     st.model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', _verbose=False)
-    
-    
-    # st.model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5s.pt', _verbose=False)
-    
 
 
 RTC_CONFIGURATION = RTCConfiguration(

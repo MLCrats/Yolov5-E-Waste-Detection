@@ -17,4 +17,4 @@ tqdm==4.64.0
 seaborn
 streamlit
 streamlit_webrtc
-opencv-python
+python3-opencv
